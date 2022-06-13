@@ -85,7 +85,7 @@ ul.nav.navbar-nav li a:hover, .navbar-default .navbar-nav > li > a:focus {
     -ms-transition: 0.5s all;
 }
 .navbar-fixed-top {
-    top: 93px;
+    top: 120px;
 }
 ul.dropdown-menu {
     top: 101%;
@@ -2398,7 +2398,7 @@ h6.caption {
 	margin-bottom:2em;
 }
 .navbar-fixed-top {
-    top: 90px;
+    top: 103px;
 }
 .agile_team_grid {
     float: left;
@@ -2855,7 +2855,7 @@ ul.nav.navbar-nav li a {
     padding: 13px 0px;
 }
 .navbar-fixed-top {
-    top: 293px;
+    top: 330px;
 }
 .banner-text {
     padding: 5em 0 5em 0;
