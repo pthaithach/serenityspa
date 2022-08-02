@@ -653,12 +653,17 @@ p.white-clrf {
 	text-align:left;
 	background-attachment:fixed;
 }
+.wthree-mid h3.heading-agileinfo {
+    font-size: 30px !important;
+    text-transform: uppercase;
+    font-weight: 600;
+}
 .wthree-mid h3 {
     font-size: 34px;
     color: #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
     letter-spacing: 2px;
-    font-weight: 600;
+    font-weight: 500;
 }
 .wthree-mid p {
     color: #ffffff;
@@ -2478,8 +2483,11 @@ a.join-wthree {
 .wthree-mid {
     padding: 3em 0;
 }
+    .wthree-mid h3.heading-agileinfo {
+        font-size: 30px !important;
+    }
 .wthree-mid h3 {
-    font-size: 30px;
+    font-size: 24px;
     letter-spacing: 0px;
 }
 .donails {
@@ -2506,6 +2514,12 @@ a.join-wthree {
 .about-bottom.inner-padding {
     padding: 3em 0;
 }
+.pl-xs-0{
+    padding-left: 0;
+}
+    .pr-xs-0{
+        padding-right: 0;
+    }
 .team {
     padding: 3em 0 1em;
 }
@@ -2940,9 +2954,13 @@ ul.nav.navbar-nav li a {
     width: 100%;
     font-size: 14px;
 }
+    .wthree-mid h3.heading-agileinfo {
+        font-size: 30px !important;
+    }
 .wthree-mid h3 {
-    font-size: 24px;
+    font-size: 23px;
 }
+
 .agile_team_grid {
     float: left;
     width: 100%;
@@ -3284,6 +3302,10 @@ a.social-button:hover{
 .mwho-we-textmks.services{
     height: auto;
 }
+
+.time{
+    color: #37d1f1;
+}
 @media (min-width: 768px){
     .pricing-div h3 {
         font-size: 23px ;
@@ -3294,6 +3316,13 @@ a.social-button:hover{
     }
     .about1 p{
         padding-right: 15px;
+    }
+    .pl-xs-0{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .wthree-mid h3.heading-agileinfo {
+        font-size: 40px !important;
     }
 }
 @media (min-width: 1440px){
